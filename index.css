@@ -1,7 +1,27 @@
 @import url(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
 @import url(https://fonts.googleapis.com/earlyaccess/mplus1p.css);
 
+#footer {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+}
 
+#about{
+  height: 400px;
+}
+
+#product{
+  height: 400px;
+}
+
+#work-community{
+
+}
+
+#contact {
+
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -50,4 +70,7 @@
 .profile-title {
   font-family: 'Mplus 1p';
   font-size: 28px;
+}
+.profile-text {
+  padding-top: 5px;
 }

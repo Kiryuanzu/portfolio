@@ -4,29 +4,62 @@
 <meta charset="UTF-8">
 <title>桐生あんずろぐ</title>
 <link rel="stylesheet" type="text/css" href="index.css">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script><script type="text/javascript" src="./footerFixed.js"></script>
-
+<script src="https://unpkg.com/vue@2.2.4"></script>
+<script src="https://unpkg.com/vue-scrollto"></script></script><script type="text/javascript" src="./footerFixed.js"></script>
 </head>
+<div id="app">
 <header class="header-nav">
   <span class="site-title">桐生あんずろぐ</span>
   <nav class="nav-header">
     <ul class="nav-list-ul">
-      <li class="nav-list-li">About</li>
-      <li class="nav-list-li">Product</li>
-      <li class="nav-list-li">Work/Community</li>
-      <li class="nav-list-li">Contact</li>
+      <li class="nav-list-li"><a href="#" id="return-about" v-scroll-to="'#about'">About</a></li>
+      <li class="nav-list-li"><a href="#" id="return-product" v-scroll-to="'#product'">Product</a></li>
+      <li class="nav-list-li"><a href="#" id="return-work-community" v-scroll-to="'#work_community'">Work/Community</a></li>
+      <li class="nav-list-li"><a href="#" id="return-contact" v-scroll-to="'#contact'">Contact</a></li>
     </ul>
   </nav>
 </header>
 <main>
   <article class="profile-page">
     <div class="profile-image">
-      <img src=images/icon.jpg></img>
-      <p class="profile-title">桐生あんずろぐ</p>
-      <p class="profile-text">プログラミングが趣味の京都の大学生です。</p>
+      <img src=images/icon.jpg></img></br>
+      <span class="profile-title">桐生あんずろぐ</span></br>
+      <div class="profile-text">プログラミングが趣味の京都の大学生です。</div><br>
     </div>
   </article>
-  
+  <article id="about">
+    <span>About</span><br>
+      <div>
+        桐生あんずというハンドルネームで活動しています。立命館大学の文系学部所属ですが、2016/10~2018/2に行われた「1ヶ月でWebサービスを作る会」と2018/3の「RailsGirlsKyoto7th」がきっかけでRubyを知りプログラミングの勉強を始めました。
+        現在は大学に通いつつ、エンジニアのアルバイトやシェアハウスを拠点にプログラミング勉強会の運営を行っています。
+      </div>
+  </article>
+  <article id="product">
+    <ul>
+      <li>布教箱</li>
+      <li>Crash Chat</li>
+      <li>サークルクラッシャー診断</li>
+    </ul>
+  </article>
+  <article id="work_community">
+    <ul>
+      <li>坂の途中</li>
+      <li>京都Webプログラミング勉強会</li>
+      <li>京大マイコンクラブ(KMC)</li>
+      <li>京都大学サークルクラッシュ同好会</li>
+      <li>立命館大学ラーメン研究会</li>
+    </ul>
+  </article>
+  <article id="contact">
+    <ul>
+      <li>Twitter</li>
+      <li>Github></li>
+      <li>Facebook</li>
+      <li>blog</li>
+    </ul>
+  </article>
+  <script type="text/javascript" src="index.js"></script>
+</main>
 </main>
 <footer>
   <div id="footer">&copy; 2018 kiryuanzu</div>
