@@ -2,11 +2,16 @@
 @import url(https://fonts.googleapis.com/earlyaccess/mplus1p.css);
 
 #footer {
-  text-align: center;
-  height: 100px;
+  height: 10px;
   width: 100%;
+  text-align: center;
+  padding-bottom: 1.5%;
+  padding-top: 1%;
+  border-top: 1px solid #ccc;
 }
+.copyright {
 
+}
 #about{
   height: 150px;
   margin: 30px 100px 0px 100px;
@@ -14,13 +19,13 @@
 }
 
 #product{
-  height: 200px;
+  height: 300px;
   margin: 30px 100px 0px 100px;
   padding-top: 60px;
 }
 
 #work_community{
-  height: 300px;
+  height: 200px;
   margin: 30px 100px 0px 100px;
   padding-top: 60px;
 }
@@ -106,7 +111,17 @@ header {
   font-size: 28px;
 }
 
-.work-community-title {
+.application-title {
+  font-family: 'Mplus 1p';
+  font-size: 20px;
+}
+
+.presentation-title {
+  font-family: 'Mplus 1p';
+  font-size: 20px;
+}
+
+.work-community-title{ 
   font-family: 'Mplus 1p';
   font-size: 28px;
 }
