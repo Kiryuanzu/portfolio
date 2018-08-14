@@ -5,13 +5,12 @@
   height: 10px;
   width: 100%;
   text-align: center;
-  padding-bottom: 1.5%;
-  padding-top: 1%;
-  border-top: 1px solid #ccc;
 }
-.copyright {
 
+.copyright{
+  padding-bottom: 2%;
 }
+
 #about{
   height: 150px;
   margin: 30px 100px 0px 100px;
@@ -73,6 +72,17 @@ header {
   font-family: 'Rounded Mplus 1c';
 }
 
+.contact-list-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  padding-right: 30px;
+}
+
+.contact-list-li {
+  list-style: none;
+}
 .site-title {
   padding-left: 20px;
   font-family: 'Rounded Mplus 1c';  
@@ -129,4 +139,30 @@ header {
 .contact-title {
   font-family: 'Mplus 1p';
   font-size: 28px;
+}
+
+.t-customize {
+  font-size : 40px;
+  color: #55ACEE;
+}
+.g-customize {
+  font-size : 40px;
+}
+
+.f-customize {
+  font-size : 40px;
+}
+
+.p-customize {
+  font-size : 40px;
+}
+
+.i-customize {
+  font-size : 40px;
+}
+
+.contact-text {
+  padding: 0.5em;
+  padding-top: 0.5em;
+  font-family: 'Rounded Mplus 1c';
 }
