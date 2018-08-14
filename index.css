@@ -24,7 +24,7 @@
 }
 
 #work_community{
-  height: 200px;
+  height: 400px;
   margin: 30px 100px 0px 100px;
   padding-top: 60px;
 }
@@ -116,6 +116,10 @@ header {
   font-size: 28px;
 }
 
+.about-text {
+  padding-top: 1%;
+}
+
 .product-title {
   font-family: 'Mplus 1p';
   font-size: 28px;
@@ -151,14 +155,21 @@ header {
 
 .f-customize {
   font-size : 40px;
+  color: #3b5998;
 }
 
 .p-customize {
   font-size : 40px;
+  color: #008fde;
 }
 
 .i-customize {
   font-size : 40px;
+}
+
+.e-customize {
+  font-size: 40px;
+  color: #dd4b39;
 }
 
 .contact-text {
