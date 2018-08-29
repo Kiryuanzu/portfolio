@@ -15,6 +15,10 @@
   height: 150px;
   margin: 30px 100px 0px 100px;
   padding-top: 60px;
+  @media screen and (max-width: 640px){
+  height: 300px;
+  margin: 30px 20px 0px 20px;
+  }
 }
 
 #product{
@@ -33,8 +37,27 @@
   height: 200px;
   margin: 30px 100px 0px 100px;
   padding-top: 60px;
-
 }
+
+@media screen and (max-width: 640px) {
+  #about{
+    height: 300px;
+    margin: 30px 20px 0px 20px;
+  }
+  #product{
+    height: 870px;
+    margin: 30px 20px 0px 20px;
+  }
+  #work_community{
+    height: 1020px;
+    margin: 30px 20px 0px 20px;
+  }
+  #contact {
+    height: 280px;
+    margin: 30px 20px 0px 20px;
+  }
+}
+
 
 header {
   position: fixed;
@@ -65,12 +88,18 @@ header {
   padding: 0;
   padding-right: 30px;
 }
+ @media screen and (max-width: 640px){
+  .nav-list-ul {
+    display: none;
+  }
+  }
 
 .nav-list-li {
   margin-left: 16px;
   list-style: none;
   font-family: 'Rounded Mplus 1c';
 }
+
 
 .contact-list-ul {
   display: flex;
@@ -80,6 +109,13 @@ header {
   padding-right: 30px;
 }
 
+@media screen and (max-width: 640px){
+  .contact-list-ul {
+  display: block;
+  padding: 0;
+  padding-left: 10px;
+  }
+}
 .contact-list-li {
   list-style: none;
 }
@@ -178,3 +214,4 @@ header {
   padding-top: 0.5em;
   font-family: 'Rounded Mplus 1c';
 }
+
