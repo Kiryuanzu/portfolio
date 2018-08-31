@@ -13,7 +13,7 @@
 
 #about{
   height: 150px;
-  margin: 30px 100px 0px 100px;
+  padding: 30px 100px 0px 100px;
   padding-top: 60px;
   @media screen and (max-width: 640px){
   height: 300px;
@@ -23,38 +23,38 @@
 
 #product{
   height: 550px;
-  margin: 30px 100px 0px 100px;
+  padding: 30px 100px 0px 100px;
   padding-top: 60px;
 }
 
 #work_community{
-  height: 600px;
-  margin: 30px 100px 0px 100px;
+  height: 650px;
+  padding: 30px 100px 0px 100px;
   padding-top: 60px;
 }
 
 #contact {
   height: 200px;
-  margin: 30px 100px 0px 100px;
+  padding: 30px 100px 0px 100px;
   padding-top: 60px;
 }
 
 @media screen and (max-width: 640px) {
   #about{
     height: 300px;
-    margin: 30px 20px 0px 20px;
+    padding: 30px 20px 50px 20px;
   }
   #product{
     height: 870px;
-    margin: 30px 20px 0px 20px;
+    padding: 30px 20px 100px 20px;
   }
   #work_community{
     height: 1020px;
-    margin: 30px 20px 0px 20px;
+    padding: 30px 20px 120px 20px;
   }
   #contact {
     height: 280px;
-    margin: 30px 20px 0px 20px;
+    padding: 30px 20px 0px 20px;
   }
 }
 
