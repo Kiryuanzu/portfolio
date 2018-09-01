@@ -12,7 +12,7 @@
 }
 
 #about{
-  height: 150px;
+  height: auto;
   padding: 30px 100px 0px 100px;
   padding-top: 60px;
   @media screen and (max-width: 640px){
@@ -22,38 +22,38 @@
 }
 
 #product{
-  height: 550px;
+  height: auto;
   padding: 30px 100px 0px 100px;
   padding-top: 60px;
 }
 
 #work_community{
-  height: 650px;
+  height: auto;
   padding: 30px 100px 0px 100px;
   padding-top: 60px;
 }
 
 #contact {
-  height: 200px;
+  height: auto;
   padding: 30px 100px 0px 100px;
   padding-top: 60px;
 }
 
 @media screen and (max-width: 640px) {
   #about{
-    height: 300px;
-    padding: 30px 20px 50px 20px;
+    height: auto;
+    padding: 30px 20px 0px 20px;
   }
   #product{
-    height: 870px;
-    padding: 30px 20px 100px 20px;
+    height: auto;
+    padding: 30px 20px 0px 20px;
   }
   #work_community{
-    height: 1020px;
-    padding: 30px 20px 120px 20px;
+    height: auto;
+    padding: 30px 20px 0px 20px;
   }
   #contact {
-    height: 280px;
+    height: auto;
     padding: 30px 20px 0px 20px;
   }
 }
